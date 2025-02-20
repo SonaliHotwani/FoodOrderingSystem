@@ -1,6 +1,5 @@
-Feed.Me: Food ordering system                            Time: 90mins
+Feed.Me: Food ordering system              
 
-Description: Implement an online food ordering system. 
 Features:
 This system has a tie-up with restaurants where each restaurant has a menu with all the items & their prices. Restaurants also have a rating out of 5.
 Each restaurant has max #orders it can process at any given time. Beyond that, it shouldn’t be assigned any further orders until an ongoing order is completed.
@@ -17,16 +16,7 @@ Order will be auto-assigned to a restaurant based on a selection strategy.
 Implement at least one restaurant selection strategy. 
 Show all orders of a user showing order item details, bill amount and restaurant it is assigned.
 
-Note: Do not use any database or NoSQL store, use an in-memory store.
-
-Expectations:
-Make sure that you have working and demoable & functionally correct code.
-Use proper abstractions, separation of concerns, proper entity modeling
-Use appropriate design patterns wherever required.
-The code should be modular, extensible, readable and unit-testable.
-Proper exception handling is required.
-Restaurant selection strategy must be pluggable
-Concurrency handling (BONUS / Good to have)
+Note: Using an in-memory store.
 
 Sample test cases:
 Onboard  Restaurants
@@ -70,23 +60,4 @@ R3 marks Order1 as COMPLETED
 
 4. Update Order Status
 			Input: {R3, Order1, COMPLETED}
-
-
-
-
-
-
-Expectations :
-Please make use of in memory data structures and do not use any external datastore for
-storage/querying. 
-Input/Output can be from terminal or file or taken from some data structure inside the driver program whichever is convenient for you. It should be easy for the evaluator to give new input or change existing input and test new cases. 
-You can look for API references online. 
-Demoable code. Functionalities mentioned above  
-Clean Interface design for the module.
-Clean internal design and implementation of the library and the application.
-Functional completeness is a must. Bonus questions are good to have.
-Extensibility
-Take care of Exception and Corner case handling.
-Test cases covering various cases are good to have.
-You are free to use the language of your choice.
 
